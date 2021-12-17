@@ -1,0 +1,21 @@
+Name = script.Parent.TextLabel --variable
+
+while true do --Loops the text
+	wait (5)
+	
+	Name.Text = "." --Every 1 sec Writes another letter
+	wait (2)
+    Name.Text = "M"
+	wait(1)
+	Name.Text = "Ma"
+	wait(1)
+	Name.Text = "Mal"
+	wait(1)
+	Name.Text = "Mali"
+	wait(1)
+	Name.Text = "Malin"
+	wait(1)
+	Name.Text = "Malins"
+	wait(1)
+	Name.Text = "Malinsa" 
+end --Reloops
